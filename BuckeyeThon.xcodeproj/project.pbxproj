@@ -11,6 +11,15 @@
 		9B3879A81DDFF68000FFDA3C /* MTK.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B3879A71DDFF68000FFDA3C /* MTK.storyboard */; };
 		9B3879AA1DDFF69100FFDA3C /* Fundraising.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B3879A91DDFF69100FFDA3C /* Fundraising.storyboard */; };
 		9B3879AC1DDFF6A600FFDA3C /* Events.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B3879AB1DDFF6A600FFDA3C /* Events.storyboard */; };
+		9B3879B21DDFF86700FFDA3C /* MainEventsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B3879B11DDFF86700FFDA3C /* MainEventsViewController.swift */; };
+		9B3879B51DE001CB00FFDA3C /* FundraisingOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B3879B41DE001CB00FFDA3C /* FundraisingOptions.swift */; };
+		9B3879B71DE0026900FFDA3C /* FundraisingOptionsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B3879B61DE0026900FFDA3C /* FundraisingOptionsTableViewController.swift */; };
+		9B3879BB1DE003D500FFDA3C /* FundraisingOptionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B3879BA1DE003D500FFDA3C /* FundraisingOptionTableViewCell.swift */; };
+		9B3879BE1DE00C7700FFDA3C /* OptionOneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B3879BD1DE00C7700FFDA3C /* OptionOneViewController.swift */; };
+		9B3879C01DE0100500FFDA3C /* OptionTwoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B3879BF1DE0100500FFDA3C /* OptionTwoViewController.swift */; };
+		9B3879C21DE0100F00FFDA3C /* OptionThreeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B3879C11DE0100F00FFDA3C /* OptionThreeViewController.swift */; };
+		9B3879C41DE0101800FFDA3C /* OptionFourViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B3879C31DE0101800FFDA3C /* OptionFourViewController.swift */; };
+		9B3879C61DE0123B00FFDA3C /* MiracleMilstone.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B3879C51DE0123B00FFDA3C /* MiracleMilstone.swift */; };
 		9BBD374B1DDEAA440038F686 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BBD374A1DDEAA440038F686 /* AppDelegate.swift */; };
 		9BBD374D1DDEAA440038F686 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BBD374C1DDEAA440038F686 /* ViewController.swift */; };
 		9BBD37501DDEAA440038F686 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BBD374E1DDEAA440038F686 /* Main.storyboard */; };
@@ -18,6 +27,7 @@
 		9BBD37551DDEAA440038F686 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BBD37531DDEAA440038F686 /* LaunchScreen.storyboard */; };
 		9BBD375D1DDEAC1A0038F686 /* RedBorderedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BBD375C1DDEAC1A0038F686 /* RedBorderedView.swift */; };
 		9BBD375F1DDEAFEA0038F686 /* SmallRoundedButtons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BBD375E1DDEAFEA0038F686 /* SmallRoundedButtons.swift */; };
+		9BBE50BD1DE0186100E8F6EC /* MiracleMilestoneTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BBE50BC1DE0186100E8F6EC /* MiracleMilestoneTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +35,15 @@
 		9B3879A71DDFF68000FFDA3C /* MTK.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MTK.storyboard; sourceTree = "<group>"; };
 		9B3879A91DDFF69100FFDA3C /* Fundraising.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Fundraising.storyboard; sourceTree = "<group>"; };
 		9B3879AB1DDFF6A600FFDA3C /* Events.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Events.storyboard; sourceTree = "<group>"; };
+		9B3879B11DDFF86700FFDA3C /* MainEventsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainEventsViewController.swift; sourceTree = "<group>"; };
+		9B3879B41DE001CB00FFDA3C /* FundraisingOptions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FundraisingOptions.swift; sourceTree = "<group>"; };
+		9B3879B61DE0026900FFDA3C /* FundraisingOptionsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FundraisingOptionsTableViewController.swift; sourceTree = "<group>"; };
+		9B3879BA1DE003D500FFDA3C /* FundraisingOptionTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FundraisingOptionTableViewCell.swift; sourceTree = "<group>"; };
+		9B3879BD1DE00C7700FFDA3C /* OptionOneViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OptionOneViewController.swift; sourceTree = "<group>"; };
+		9B3879BF1DE0100500FFDA3C /* OptionTwoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OptionTwoViewController.swift; sourceTree = "<group>"; };
+		9B3879C11DE0100F00FFDA3C /* OptionThreeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OptionThreeViewController.swift; sourceTree = "<group>"; };
+		9B3879C31DE0101800FFDA3C /* OptionFourViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OptionFourViewController.swift; sourceTree = "<group>"; };
+		9B3879C51DE0123B00FFDA3C /* MiracleMilstone.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MiracleMilstone.swift; sourceTree = "<group>"; };
 		9BBD37471DDEAA440038F686 /* BuckeyeThon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BuckeyeThon.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9BBD374A1DDEAA440038F686 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9BBD374C1DDEAA440038F686 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -34,6 +53,7 @@
 		9BBD37561DDEAA440038F686 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9BBD375C1DDEAC1A0038F686 /* RedBorderedView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RedBorderedView.swift; sourceTree = "<group>"; };
 		9BBD375E1DDEAFEA0038F686 /* SmallRoundedButtons.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SmallRoundedButtons.swift; sourceTree = "<group>"; };
+		9BBE50BC1DE0186100E8F6EC /* MiracleMilestoneTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MiracleMilestoneTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +87,9 @@
 			isa = PBXGroup;
 			children = (
 				9B3879A91DDFF69100FFDA3C /* Fundraising.storyboard */,
+				9B3879B81DE002BE00FFDA3C /* Model */,
+				9B3879BC1DE003DB00FFDA3C /* Views */,
+				9B3879B91DE002C200FFDA3C /* Controller */,
 			);
 			name = Fundraising;
 			sourceTree = "<group>";
@@ -75,8 +98,47 @@
 			isa = PBXGroup;
 			children = (
 				9B3879AB1DDFF6A600FFDA3C /* Events.storyboard */,
+				9B3879B31DDFF86B00FFDA3C /* Controllers */,
 			);
 			name = Events;
+			sourceTree = "<group>";
+		};
+		9B3879B31DDFF86B00FFDA3C /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				9B3879B11DDFF86700FFDA3C /* MainEventsViewController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		9B3879B81DE002BE00FFDA3C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9B3879B41DE001CB00FFDA3C /* FundraisingOptions.swift */,
+				9B3879C51DE0123B00FFDA3C /* MiracleMilstone.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		9B3879B91DE002C200FFDA3C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				9B3879BF1DE0100500FFDA3C /* OptionTwoViewController.swift */,
+				9B3879C11DE0100F00FFDA3C /* OptionThreeViewController.swift */,
+				9B3879C31DE0101800FFDA3C /* OptionFourViewController.swift */,
+				9B3879BD1DE00C7700FFDA3C /* OptionOneViewController.swift */,
+				9B3879B61DE0026900FFDA3C /* FundraisingOptionsTableViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		9B3879BC1DE003DB00FFDA3C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				9BBE50BC1DE0186100E8F6EC /* MiracleMilestoneTableViewCell.swift */,
+				9B3879BA1DE003D500FFDA3C /* FundraisingOptionTableViewCell.swift */,
+			);
+			name = Views;
 			sourceTree = "<group>";
 		};
 		9BBD373E1DDEAA440038F686 = {
@@ -154,6 +216,7 @@
 				TargetAttributes = {
 					9BBD37461DDEAA440038F686 = {
 						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = L39SCG5C38;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -198,8 +261,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9BBE50BD1DE0186100E8F6EC /* MiracleMilestoneTableViewCell.swift in Sources */,
+				9B3879C61DE0123B00FFDA3C /* MiracleMilstone.swift in Sources */,
+				9B3879B71DE0026900FFDA3C /* FundraisingOptionsTableViewController.swift in Sources */,
+				9B3879C41DE0101800FFDA3C /* OptionFourViewController.swift in Sources */,
+				9B3879BE1DE00C7700FFDA3C /* OptionOneViewController.swift in Sources */,
+				9B3879BB1DE003D500FFDA3C /* FundraisingOptionTableViewCell.swift in Sources */,
 				9BBD375D1DDEAC1A0038F686 /* RedBorderedView.swift in Sources */,
+				9B3879C21DE0100F00FFDA3C /* OptionThreeViewController.swift in Sources */,
+				9B3879B51DE001CB00FFDA3C /* FundraisingOptions.swift in Sources */,
 				9BBD375F1DDEAFEA0038F686 /* SmallRoundedButtons.swift in Sources */,
+				9B3879C01DE0100500FFDA3C /* OptionTwoViewController.swift in Sources */,
+				9B3879B21DDFF86700FFDA3C /* MainEventsViewController.swift in Sources */,
 				9BBD374D1DDEAA440038F686 /* ViewController.swift in Sources */,
 				9BBD374B1DDEAA440038F686 /* AppDelegate.swift in Sources */,
 			);
@@ -323,7 +396,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = L39SCG5C38;
 				INFOPLIST_FILE = BuckeyeThon/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.codeThatCares.BuckeyeThon;
@@ -337,7 +410,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = L39SCG5C38;
 				INFOPLIST_FILE = BuckeyeThon/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.codeThatCares.BuckeyeThon;
