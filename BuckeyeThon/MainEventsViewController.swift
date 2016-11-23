@@ -31,7 +31,7 @@ class MainEventsViewController: UIViewController {
         // Get the new view controller using segue.destinationViewController.
         // Pass the selected object to the new view controller.
         
-        if let controller = segue.destination as? EventsTabViewController {
+        if let controller = segue.destination as? CustomTabViewController {
             if let index = sender as? Int {
                 controller.selectedIndex = index
             }

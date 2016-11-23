@@ -43,6 +43,9 @@
                                                 <state key="normal" title="Dancers">
                                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="toDetailedInvolved:" destination="luL-bL-Qmu" eventType="touchUpInside" id="9U5-DZ-zg0"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fad-4z-qQM" customClass="SmallRoundedButtons" customModule="BuckeyeThon" customModuleProvider="target">
                                                 <rect key="frame" x="0.0" y="94" width="327" height="74.5"/>
@@ -50,6 +53,9 @@
                                                 <state key="normal" title="Team Capatains">
                                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="toDetailedInvolved:" destination="luL-bL-Qmu" eventType="touchUpInside" id="b0c-hr-2Je"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fn0-8V-QHP" customClass="SmallRoundedButtons" customModule="BuckeyeThon" customModuleProvider="target">
                                                 <rect key="frame" x="0.0" y="188.5" width="327" height="74"/>
@@ -57,6 +63,9 @@
                                                 <state key="normal" title="Membership">
                                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="toDetailedInvolved:" destination="luL-bL-Qmu" eventType="touchUpInside" id="nzA-e8-0T4"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="f7P-31-Hco" customClass="SmallRoundedButtons" customModule="BuckeyeThon" customModuleProvider="target">
                                                 <rect key="frame" x="0.0" y="282.5" width="327" height="74.5"/>
@@ -64,6 +73,9 @@
                                                 <state key="normal" title="Buckeye Buddies">
                                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="toDetailedInvolved:" destination="luL-bL-Qmu" eventType="touchUpInside" id="Q0E-ln-XbC"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jn6-lz-vnz" customClass="SmallRoundedButtons" customModule="BuckeyeThon" customModuleProvider="target">
                                                 <rect key="frame" x="0.0" y="377" width="327" height="74"/>
@@ -71,6 +83,9 @@
                                                 <state key="normal" title="Share">
                                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="toDetailedInvolved:" destination="luL-bL-Qmu" eventType="touchUpInside" id="jmB-Qw-iYP"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                     </stackView>
@@ -96,10 +111,136 @@
                         </constraints>
                     </view>
                     <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
+                    <connections>
+                        <segue destination="09z-Jo-ctk" kind="show" identifier="toInvolvedDetailed" id="Dsk-nc-niX"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="QWa-8o-Oa2" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="108" y="144.3778110944528"/>
         </scene>
+        <!--Team Captains-->
+        <scene sceneID="LyG-t1-mks">
+            <objects>
+                <viewController id="VUa-op-8Jl" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="0G9-wO-ENi"/>
+                        <viewControllerLayoutGuide type="bottom" id="4ta-uC-LES"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="VQe-JU-cJy">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Team Captains" image="2 Filled-50" id="cJb-59-8UW"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="zO4-6O-QBk" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2710" y="-183"/>
+        </scene>
+        <!--Buckeye Buddies-->
+        <scene sceneID="qUd-pN-RKE">
+            <objects>
+                <viewController id="QDI-Fa-BWo" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="icK-US-X2r"/>
+                        <viewControllerLayoutGuide type="bottom" id="tVc-8n-vYv"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="EhW-4s-0PQ">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Buckeye Buddies" image="4 Filled-50" id="mUo-gO-THm"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="oxI-g9-6Bw" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2710" y="487"/>
+        </scene>
+        <!--Membership-->
+        <scene sceneID="ebg-9v-J3o">
+            <objects>
+                <viewController id="qqM-Oa-hu3" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="QmO-f1-9kc"/>
+                        <viewControllerLayoutGuide type="bottom" id="Ihw-WE-kna"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="I8y-oH-84M">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Membership" image="3 Filled-50" id="97q-h7-B7t"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hfY-xK-BC7" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1921" y="486"/>
+        </scene>
+        <!--Share-->
+        <scene sceneID="5bd-Wv-G0J">
+            <objects>
+                <viewController id="rio-Qw-tnU" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="3jp-7r-CXi"/>
+                        <viewControllerLayoutGuide type="bottom" id="yL4-c7-eVD"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Ezs-OU-rry">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Share" image="5 Filled-50" id="jbU-ln-FMZ"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ybq-fw-6oq" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1921" y="1144"/>
+        </scene>
+        <!--Dancers-->
+        <scene sceneID="rSb-1d-6jx">
+            <objects>
+                <viewController id="h83-tX-F7l" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="4tf-PH-4sL"/>
+                        <viewControllerLayoutGuide type="bottom" id="rvt-Nc-8fR"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="GNS-p3-dWr">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Dancers" image="1 Filled-50" id="I62-ZD-Toq"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vVT-DS-pnK" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1922" y="-183"/>
+        </scene>
+        <!--Custom Tab View Controller-->
+        <scene sceneID="zEK-Hr-z2x">
+            <objects>
+                <tabBarController id="09z-Jo-ctk" customClass="CustomTabViewController" customModule="BuckeyeThon" customModuleProvider="target" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="v7V-me-R8D">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="h83-tX-F7l" kind="relationship" relationship="viewControllers" id="8bQ-te-U7U"/>
+                        <segue destination="VUa-op-8Jl" kind="relationship" relationship="viewControllers" id="Z9s-No-4uX"/>
+                        <segue destination="qqM-Oa-hu3" kind="relationship" relationship="viewControllers" id="eh3-wK-pWy"/>
+                        <segue destination="QDI-Fa-BWo" kind="relationship" relationship="viewControllers" id="X5C-rU-WPO"/>
+                        <segue destination="rio-Qw-tnU" kind="relationship" relationship="viewControllers" id="Mwl-Nm-hR1"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="9Zt-b2-tc1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="970" y="144"/>
+        </scene>
     </scenes>
+    <resources>
+        <image name="1 Filled-50" width="25" height="25"/>
+        <image name="2 Filled-50" width="25" height="25"/>
+        <image name="3 Filled-50" width="25" height="25"/>
+        <image name="4 Filled-50" width="25" height="25"/>
+        <image name="5 Filled-50" width="25" height="25"/>
+    </resources>
 </document>

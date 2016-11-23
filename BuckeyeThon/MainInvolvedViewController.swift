@@ -18,20 +18,24 @@ class MainInvolvedViewController: UIViewController {
         self.title = "Involved"
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+
+    @IBAction func toDetailedInvolved(_ sender: UIButton) {
+        let index = sender.tag
+        self.performSegue(withIdentifier: "toInvolvedDetailed", sender: index)
     }
     
-
-    /*
     // MARK: - Navigation
 
     // In a storyboard-based application, you will often want to do a little preparation before navigation
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         // Get the new view controller using segue.destinationViewController.
         // Pass the selected object to the new view controller.
+        
+        if let controller = segue.destination as? CustomTabViewController {
+            if let index = sender as? Int {
+                controller.selectedIndex = index
+            }
+        }
     }
-    */
-
+ 
 }

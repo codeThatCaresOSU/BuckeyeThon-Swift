@@ -8,7 +8,7 @@
 
 import UIKit
 
-class EventsTabViewController: UITabBarController {
+class CustomTabViewController: UITabBarController {
     
     let colorMaster = UIColor(displayP3Red: 222/255, green: 49/255, blue: 99/255, alpha: 1)
 
