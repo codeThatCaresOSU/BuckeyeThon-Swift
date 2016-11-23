@@ -10,10 +10,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Main Events View Controller-->
         <scene sceneID="hMb-F0-Sd3">
             <objects>
-                <viewController id="ayv-xa-ACG" sceneMemberID="viewController">
+                <viewController id="ayv-xa-ACG" customClass="MainEventsViewController" customModule="BuckeyeThon" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Q6P-bA-349"/>
                         <viewControllerLayoutGuide type="bottom" id="HBh-AZ-eDF"/>
@@ -23,42 +23,60 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="bgh-mw-uIg">
-                                <rect key="frame" x="24" y="218" width="327" height="230"/>
+                                <rect key="frame" x="24" y="180.5" width="327" height="305"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aen-rv-yPJ" customClass="SmallRoundedButtons" customModule="BuckeyeThon" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="0.0" width="327" height="30"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="327" height="45"/>
                                         <color key="backgroundColor" red="0.73333333329999995" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="45" id="bYq-fu-LCG"/>
+                                        </constraints>
                                         <state key="normal" title="Dance Marathon">
                                             <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                         </state>
+                                        <connections>
+                                            <action selector="sendToSpecifiedTabEvent:" destination="ayv-xa-ACG" eventType="touchUpInside" id="ZPf-FO-U45"/>
+                                        </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0KY-CN-q5o" customClass="SmallRoundedButtons" customModule="BuckeyeThon" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="50" width="327" height="30"/>
+                                    <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0KY-CN-q5o" customClass="SmallRoundedButtons" customModule="BuckeyeThon" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="65" width="327" height="45"/>
                                         <color key="backgroundColor" red="0.73333333329999995" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <state key="normal" title="Fashion Show">
                                             <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                         </state>
+                                        <connections>
+                                            <action selector="sendToSpecifiedTabEvent:" destination="ayv-xa-ACG" eventType="touchUpInside" id="423-P3-mGi"/>
+                                        </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OMZ-iJ-Cbh" customClass="SmallRoundedButtons" customModule="BuckeyeThon" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="100" width="327" height="30"/>
+                                    <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OMZ-iJ-Cbh" customClass="SmallRoundedButtons" customModule="BuckeyeThon" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="130" width="327" height="45"/>
                                         <color key="backgroundColor" red="0.73333333329999995" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <state key="normal" title="Extra Life">
                                             <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                         </state>
+                                        <connections>
+                                            <action selector="sendToSpecifiedTabEvent:" destination="ayv-xa-ACG" eventType="touchUpInside" id="WSm-bO-BYh"/>
+                                        </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0RB-Lo-XHp" customClass="SmallRoundedButtons" customModule="BuckeyeThon" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="150" width="327" height="30"/>
+                                    <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0RB-Lo-XHp" customClass="SmallRoundedButtons" customModule="BuckeyeThon" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="195" width="327" height="45"/>
                                         <color key="backgroundColor" red="0.73333333329999995" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <state key="normal" title="Miracles Miles 5k">
                                             <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                         </state>
+                                        <connections>
+                                            <action selector="sendToSpecifiedTabEvent:" destination="ayv-xa-ACG" eventType="touchUpInside" id="2KA-9r-yBL"/>
+                                        </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sRy-ul-Cfx" customClass="SmallRoundedButtons" customModule="BuckeyeThon" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="200" width="327" height="30"/>
+                                    <button opaque="NO" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sRy-ul-Cfx" customClass="SmallRoundedButtons" customModule="BuckeyeThon" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="260" width="327" height="45"/>
                                         <color key="backgroundColor" red="0.73333333329999995" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <state key="normal" title="CarnOval">
                                             <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                         </state>
+                                        <connections>
+                                            <action selector="sendToSpecifiedTabEvent:" destination="ayv-xa-ACG" eventType="touchUpInside" id="oCC-3u-P8s"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                             </stackView>
@@ -70,12 +88,74 @@
                             <constraint firstItem="bgh-mw-uIg" firstAttribute="leading" secondItem="8KF-Jq-8oP" secondAttribute="leadingMargin" constant="8" id="e2q-PA-RHB"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <segue destination="hJH-DZ-mkk" kind="show" identifier="toDetailedEvent" id="jkx-eR-GbO"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="BlD-FX-rRd" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="676" y="87"/>
+            <point key="canvasLocation" x="6" y="1234"/>
         </scene>
-        <!--Item-->
+        <!--Fashion Show-->
+        <scene sceneID="PhL-8w-rik">
+            <objects>
+                <viewController id="77P-w7-Kdx" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Jse-l1-41q"/>
+                        <viewControllerLayoutGuide type="bottom" id="G2d-pD-mLr"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="yaR-4c-K2Y">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Fashion Show" image="2 Filled-50" id="nD7-7k-ONj"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="kG6-4n-3JG" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3542" y="542"/>
+        </scene>
+        <!--Dance Marthon-->
+        <scene sceneID="QLV-tU-xsK">
+            <objects>
+                <viewController id="pNW-uT-czG" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Jlx-oH-GZK"/>
+                        <viewControllerLayoutGuide type="bottom" id="etx-f1-0yJ"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="aK4-JZ-Xcf">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Dance Marthon" image="1 Filled-50" id="Y5y-d3-FZi"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="rRc-4K-Zhi" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2638" y="296"/>
+        </scene>
+        <!--Events Tab View Controller-->
+        <scene sceneID="aaQ-C9-OSs">
+            <objects>
+                <tabBarController id="hJH-DZ-mkk" customClass="EventsTabViewController" customModule="BuckeyeThon" customModuleProvider="target" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="E7Q-xs-2hQ">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="pNW-uT-czG" kind="relationship" relationship="viewControllers" id="jO1-VE-pOI"/>
+                        <segue destination="77P-w7-Kdx" kind="relationship" relationship="viewControllers" id="fQz-wW-BiI"/>
+                        <segue destination="0u9-Oh-NRC" kind="relationship" relationship="viewControllers" id="o4e-Qe-UV8"/>
+                        <segue destination="Iad-CC-lEJ" kind="relationship" relationship="viewControllers" id="cpi-dg-J94"/>
+                        <segue destination="JRq-PO-uXR" kind="relationship" relationship="viewControllers" id="aLe-6I-zvh"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="PZ1-i0-wuF" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1014" y="1234"/>
+        </scene>
+        <!--Miracle Miles-->
         <scene sceneID="qBh-fR-T3Z">
             <objects>
                 <viewController id="Iad-CC-lEJ" sceneMemberID="viewController">
@@ -88,13 +168,13 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item" id="GDK-jj-K97"/>
+                    <tabBarItem key="tabBarItem" title="Miracle Miles" image="4 Filled-50" id="GDK-jj-K97"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="XpO-gb-QCS" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2433" y="1272"/>
+            <point key="canvasLocation" x="3542" y="1234"/>
         </scene>
-        <!--Item-->
+        <!--Extra Life-->
         <scene sceneID="Xmj-Yk-T86">
             <objects>
                 <viewController id="0u9-Oh-NRC" sceneMemberID="viewController">
@@ -107,11 +187,37 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item" id="k27-jN-v8U"/>
+                    <tabBarItem key="tabBarItem" title="Extra Life" image="3 Filled-50" id="k27-jN-v8U"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="qhZ-de-YP3" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1481" y="1272"/>
+            <point key="canvasLocation" x="2638" y="1234"/>
+        </scene>
+        <!--CarnOval-->
+        <scene sceneID="lTC-Ba-ZQf">
+            <objects>
+                <viewController id="JRq-PO-uXR" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="8pb-al-Tc3"/>
+                        <viewControllerLayoutGuide type="bottom" id="AxM-fE-R8V"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="o7w-VO-NS8">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="CarnOval" image="5 Filled-50" id="1mf-U8-VWO"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="o98-QX-E0S" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2638" y="1965"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="1 Filled-50" width="25" height="25"/>
+        <image name="2 Filled-50" width="25" height="25"/>
+        <image name="3 Filled-50" width="25" height="25"/>
+        <image name="4 Filled-50" width="25" height="25"/>
+        <image name="5 Filled-50" width="25" height="25"/>
+    </resources>
 </document>

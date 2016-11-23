@@ -20,6 +20,7 @@
 		9B3879C21DE0100F00FFDA3C /* OptionThreeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B3879C11DE0100F00FFDA3C /* OptionThreeViewController.swift */; };
 		9B3879C41DE0101800FFDA3C /* OptionFourViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B3879C31DE0101800FFDA3C /* OptionFourViewController.swift */; };
 		9B3879C61DE0123B00FFDA3C /* MiracleMilstone.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B3879C51DE0123B00FFDA3C /* MiracleMilstone.swift */; };
+		9B7C20461DE507E5000FDF4C /* EventsTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B7C20451DE507E5000FDF4C /* EventsTabViewController.swift */; };
 		9BBD374B1DDEAA440038F686 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BBD374A1DDEAA440038F686 /* AppDelegate.swift */; };
 		9BBD374D1DDEAA440038F686 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BBD374C1DDEAA440038F686 /* ViewController.swift */; };
 		9BBD37501DDEAA440038F686 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BBD374E1DDEAA440038F686 /* Main.storyboard */; };
@@ -44,6 +45,7 @@
 		9B3879C11DE0100F00FFDA3C /* OptionThreeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OptionThreeViewController.swift; sourceTree = "<group>"; };
 		9B3879C31DE0101800FFDA3C /* OptionFourViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OptionFourViewController.swift; sourceTree = "<group>"; };
 		9B3879C51DE0123B00FFDA3C /* MiracleMilstone.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MiracleMilstone.swift; sourceTree = "<group>"; };
+		9B7C20451DE507E5000FDF4C /* EventsTabViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventsTabViewController.swift; sourceTree = "<group>"; };
 		9BBD37471DDEAA440038F686 /* BuckeyeThon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BuckeyeThon.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9BBD374A1DDEAA440038F686 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9BBD374C1DDEAA440038F686 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -106,6 +108,7 @@
 		9B3879B31DDFF86B00FFDA3C /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				9B7C20451DE507E5000FDF4C /* EventsTabViewController.swift */,
 				9B3879B11DDFF86700FFDA3C /* MainEventsViewController.swift */,
 			);
 			name = Controllers;
@@ -275,6 +278,7 @@
 				9B3879B21DDFF86700FFDA3C /* MainEventsViewController.swift in Sources */,
 				9BBD374D1DDEAA440038F686 /* ViewController.swift in Sources */,
 				9BBD374B1DDEAA440038F686 /* AppDelegate.swift in Sources */,
+				9B7C20461DE507E5000FDF4C /* EventsTabViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

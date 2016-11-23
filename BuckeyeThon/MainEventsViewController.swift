@@ -17,16 +17,26 @@ class MainEventsViewController: UIViewController {
         
         self.title = "Events"
     }
-
-
-    /*
+    
+    @IBAction func sendToSpecifiedTabEvent(_ sender: UIButton) {
+    
+        let selectedButton = sender.tag
+        performSegue(withIdentifier: "toDetailedEvent", sender: selectedButton)
+    }
+    
     // MARK: - Navigation
 
     // In a storyboard-based application, you will often want to do a little preparation before navigation
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         // Get the new view controller using segue.destinationViewController.
         // Pass the selected object to the new view controller.
+        
+        if let controller = segue.destination as? EventsTabViewController {
+            if let index = sender as? Int {
+                controller.selectedIndex = index
+            }
+            
+        }
     }
-    */
-
+    
 }
