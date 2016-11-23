@@ -100,6 +100,9 @@
                                                         <state key="normal" title="Get Involved">
                                                             <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                         </state>
+                                                        <connections>
+                                                            <segue destination="hCs-KB-5Nr" kind="show" id="U9V-Qc-QN4"/>
+                                                        </connections>
                                                     </button>
                                                 </subviews>
                                             </stackView>
@@ -162,6 +165,14 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="83Q-Yg-9Ik" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1698" y="1060"/>
+        </scene>
+        <!--Involved-->
+        <scene sceneID="P2t-Zh-ngv">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Involved" id="hCs-KB-5Nr" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="QQU-hT-9mr" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1746" y="1244"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="myl-I8-qhI">

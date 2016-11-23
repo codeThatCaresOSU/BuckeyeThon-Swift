@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11542" systemVersion="16C48b" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="luL-bL-Qmu">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Main Involved View Controller-->
+        <scene sceneID="veO-Mu-s3K">
+            <objects>
+                <viewController id="luL-bL-Qmu" customClass="MainInvolvedViewController" customModule="BuckeyeThon" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="401-Gy-UXp"/>
+                        <viewControllerLayoutGuide type="bottom" id="btB-fh-ahH"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="7mZ-4s-6w4">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Z6A-7v-4c3">
+                                <rect key="frame" x="16" y="72" width="343" height="575"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ways To Get Involved" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="B7c-aV-5PG">
+                                        <rect key="frame" x="8" y="8" width="327" height="100"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="100" id="W7M-MM-guu"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="27"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="XM2-dx-hOj">
+                                        <rect key="frame" x="8" y="116" width="327" height="451"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Mu9-YY-63x" customClass="SmallRoundedButtons" customModule="BuckeyeThon" customModuleProvider="target">
+                                                <rect key="frame" x="0.0" y="0.0" width="327" height="74"/>
+                                                <color key="backgroundColor" red="0.73333333329999995" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <state key="normal" title="Dancers">
+                                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                </state>
+                                            </button>
+                                            <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fad-4z-qQM" customClass="SmallRoundedButtons" customModule="BuckeyeThon" customModuleProvider="target">
+                                                <rect key="frame" x="0.0" y="94" width="327" height="74.5"/>
+                                                <color key="backgroundColor" red="0.73333333329999995" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <state key="normal" title="Team Capatains">
+                                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                </state>
+                                            </button>
+                                            <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fn0-8V-QHP" customClass="SmallRoundedButtons" customModule="BuckeyeThon" customModuleProvider="target">
+                                                <rect key="frame" x="0.0" y="188.5" width="327" height="74"/>
+                                                <color key="backgroundColor" red="0.73333333329999995" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <state key="normal" title="Membership">
+                                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                </state>
+                                            </button>
+                                            <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="f7P-31-Hco" customClass="SmallRoundedButtons" customModule="BuckeyeThon" customModuleProvider="target">
+                                                <rect key="frame" x="0.0" y="282.5" width="327" height="74.5"/>
+                                                <color key="backgroundColor" red="0.73333333329999995" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <state key="normal" title="Buckeye Buddies">
+                                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                </state>
+                                            </button>
+                                            <button opaque="NO" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jn6-lz-vnz" customClass="SmallRoundedButtons" customModule="BuckeyeThon" customModuleProvider="target">
+                                                <rect key="frame" x="0.0" y="377" width="327" height="74"/>
+                                                <color key="backgroundColor" red="0.73333333329999995" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <state key="normal" title="Share">
+                                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                </state>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstItem="B7c-aV-5PG" firstAttribute="top" secondItem="Z6A-7v-4c3" secondAttribute="top" constant="8" id="86Y-Zw-eUH"/>
+                                    <constraint firstItem="XM2-dx-hOj" firstAttribute="leading" secondItem="Z6A-7v-4c3" secondAttribute="leading" constant="8" id="9hS-0e-N7i"/>
+                                    <constraint firstItem="B7c-aV-5PG" firstAttribute="leading" secondItem="Z6A-7v-4c3" secondAttribute="leading" constant="8" id="Ang-XV-atE"/>
+                                    <constraint firstAttribute="bottom" secondItem="XM2-dx-hOj" secondAttribute="bottom" constant="8" id="HqE-rp-GLz"/>
+                                    <constraint firstAttribute="trailing" secondItem="B7c-aV-5PG" secondAttribute="trailing" constant="8" id="NUC-jg-Flq"/>
+                                    <constraint firstAttribute="trailing" secondItem="XM2-dx-hOj" secondAttribute="trailing" constant="8" id="k3g-Ks-RV9"/>
+                                    <constraint firstItem="XM2-dx-hOj" firstAttribute="top" secondItem="B7c-aV-5PG" secondAttribute="bottom" constant="8" id="uBo-hP-ArL"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Z6A-7v-4c3" firstAttribute="leading" secondItem="7mZ-4s-6w4" secondAttribute="leadingMargin" id="FTR-QU-8h1"/>
+                            <constraint firstItem="Z6A-7v-4c3" firstAttribute="top" secondItem="401-Gy-UXp" secondAttribute="bottom" constant="8" id="Vqt-H8-bbN"/>
+                            <constraint firstItem="Z6A-7v-4c3" firstAttribute="trailing" secondItem="7mZ-4s-6w4" secondAttribute="trailingMargin" id="WjI-et-IzS"/>
+                            <constraint firstItem="btB-fh-ahH" firstAttribute="top" secondItem="Z6A-7v-4c3" secondAttribute="bottom" constant="20" id="vgM-Xm-Xpx"/>
+                        </constraints>
+                    </view>
+                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="QWa-8o-Oa2" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="108" y="144.3778110944528"/>
+        </scene>
+    </scenes>
+</document>
