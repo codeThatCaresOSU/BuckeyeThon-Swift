@@ -22,79 +22,102 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="bgh-mw-uIg">
-                                <rect key="frame" x="24" y="180.5" width="327" height="305"/>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="DZR-oD-e7m">
+                                <rect key="frame" x="16" y="72" width="343" height="575"/>
                                 <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aen-rv-yPJ" customClass="SmallRoundedButtons" customModule="BuckeyeThon" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="0.0" width="327" height="45"/>
-                                        <color key="backgroundColor" red="0.73333333329999995" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="BuckeyeThon Events" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1ID-7P-kut">
+                                        <rect key="frame" x="0.0" y="0.0" width="343" height="100"/>
                                         <constraints>
-                                            <constraint firstAttribute="height" constant="45" id="bYq-fu-LCG"/>
+                                            <constraint firstAttribute="height" constant="100" id="pqS-yK-lGP"/>
                                         </constraints>
-                                        <state key="normal" title="Dance Marathon">
-                                            <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                        </state>
-                                        <connections>
-                                            <action selector="sendToSpecifiedTabEvent:" destination="ayv-xa-ACG" eventType="touchUpInside" id="ZPf-FO-U45"/>
-                                        </connections>
-                                    </button>
-                                    <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0KY-CN-q5o" customClass="SmallRoundedButtons" customModule="BuckeyeThon" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="65" width="327" height="45"/>
-                                        <color key="backgroundColor" red="0.73333333329999995" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        <state key="normal" title="Fashion Show">
-                                            <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                        </state>
-                                        <connections>
-                                            <action selector="sendToSpecifiedTabEvent:" destination="ayv-xa-ACG" eventType="touchUpInside" id="423-P3-mGi"/>
-                                        </connections>
-                                    </button>
-                                    <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OMZ-iJ-Cbh" customClass="SmallRoundedButtons" customModule="BuckeyeThon" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="130" width="327" height="45"/>
-                                        <color key="backgroundColor" red="0.73333333329999995" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        <state key="normal" title="Extra Life">
-                                            <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                        </state>
-                                        <connections>
-                                            <action selector="sendToSpecifiedTabEvent:" destination="ayv-xa-ACG" eventType="touchUpInside" id="WSm-bO-BYh"/>
-                                        </connections>
-                                    </button>
-                                    <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0RB-Lo-XHp" customClass="SmallRoundedButtons" customModule="BuckeyeThon" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="195" width="327" height="45"/>
-                                        <color key="backgroundColor" red="0.73333333329999995" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        <state key="normal" title="Miracles Miles 5k">
-                                            <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                        </state>
-                                        <connections>
-                                            <action selector="sendToSpecifiedTabEvent:" destination="ayv-xa-ACG" eventType="touchUpInside" id="2KA-9r-yBL"/>
-                                        </connections>
-                                    </button>
-                                    <button opaque="NO" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sRy-ul-Cfx" customClass="SmallRoundedButtons" customModule="BuckeyeThon" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="260" width="327" height="45"/>
-                                        <color key="backgroundColor" red="0.73333333329999995" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        <state key="normal" title="CarnOval">
-                                            <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                        </state>
-                                        <connections>
-                                            <action selector="sendToSpecifiedTabEvent:" destination="ayv-xa-ACG" eventType="touchUpInside" id="oCC-3u-P8s"/>
-                                        </connections>
-                                    </button>
+                                        <fontDescription key="fontDescription" type="system" pointSize="27"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="bgh-mw-uIg">
+                                        <rect key="frame" x="8" y="108" width="327" height="447"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aen-rv-yPJ" customClass="SmallRoundedButtons" customModule="BuckeyeThon" customModuleProvider="target">
+                                                <rect key="frame" x="0.0" y="0.0" width="327" height="73.5"/>
+                                                <color key="backgroundColor" red="0.73333333329999995" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <state key="normal" title="Dance Marathon">
+                                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="sendToSpecifiedTabEvent:" destination="ayv-xa-ACG" eventType="touchUpInside" id="ZPf-FO-U45"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0KY-CN-q5o" customClass="SmallRoundedButtons" customModule="BuckeyeThon" customModuleProvider="target">
+                                                <rect key="frame" x="0.0" y="93.5" width="327" height="73.5"/>
+                                                <color key="backgroundColor" red="0.73333333329999995" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <state key="normal" title="Fashion Show">
+                                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="sendToSpecifiedTabEvent:" destination="ayv-xa-ACG" eventType="touchUpInside" id="423-P3-mGi"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OMZ-iJ-Cbh" customClass="SmallRoundedButtons" customModule="BuckeyeThon" customModuleProvider="target">
+                                                <rect key="frame" x="0.0" y="187" width="327" height="73"/>
+                                                <color key="backgroundColor" red="0.73333333329999995" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <state key="normal" title="Extra Life">
+                                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="sendToSpecifiedTabEvent:" destination="ayv-xa-ACG" eventType="touchUpInside" id="WSm-bO-BYh"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0RB-Lo-XHp" customClass="SmallRoundedButtons" customModule="BuckeyeThon" customModuleProvider="target">
+                                                <rect key="frame" x="0.0" y="280" width="327" height="73.5"/>
+                                                <color key="backgroundColor" red="0.73333333329999995" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <state key="normal" title="Miracles Miles 5k">
+                                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="sendToSpecifiedTabEvent:" destination="ayv-xa-ACG" eventType="touchUpInside" id="2KA-9r-yBL"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sRy-ul-Cfx" customClass="SmallRoundedButtons" customModule="BuckeyeThon" customModuleProvider="target">
+                                                <rect key="frame" x="0.0" y="373.5" width="327" height="73.5"/>
+                                                <color key="backgroundColor" red="0.73333333329999995" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <state key="normal" title="CarnOval">
+                                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="sendToSpecifiedTabEvent:" destination="ayv-xa-ACG" eventType="touchUpInside" id="oCC-3u-P8s"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
                                 </subviews>
-                            </stackView>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstItem="bgh-mw-uIg" firstAttribute="leading" secondItem="DZR-oD-e7m" secondAttribute="leading" constant="8" id="ApD-KU-pVR"/>
+                                    <constraint firstAttribute="bottom" secondItem="bgh-mw-uIg" secondAttribute="bottom" constant="20" id="PGm-g1-6mA"/>
+                                    <constraint firstItem="bgh-mw-uIg" firstAttribute="top" secondItem="1ID-7P-kut" secondAttribute="bottom" constant="8" id="TV6-hA-EOW"/>
+                                    <constraint firstAttribute="trailing" secondItem="bgh-mw-uIg" secondAttribute="trailing" constant="8" id="WRo-zC-iCB"/>
+                                    <constraint firstItem="1ID-7P-kut" firstAttribute="leading" secondItem="DZR-oD-e7m" secondAttribute="leading" id="uOb-KD-lZh"/>
+                                    <constraint firstAttribute="trailing" secondItem="1ID-7P-kut" secondAttribute="trailing" id="wK2-Ow-iTN"/>
+                                    <constraint firstItem="1ID-7P-kut" firstAttribute="top" secondItem="DZR-oD-e7m" secondAttribute="top" id="wca-6V-eYh"/>
+                                </constraints>
+                            </view>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="bgh-mw-uIg" firstAttribute="centerX" secondItem="8KF-Jq-8oP" secondAttribute="centerX" id="6qs-gG-rVp"/>
-                            <constraint firstItem="bgh-mw-uIg" firstAttribute="centerY" secondItem="8KF-Jq-8oP" secondAttribute="centerY" id="Qjr-mB-bj9"/>
-                            <constraint firstItem="bgh-mw-uIg" firstAttribute="leading" secondItem="8KF-Jq-8oP" secondAttribute="leadingMargin" constant="8" id="e2q-PA-RHB"/>
+                            <constraint firstItem="DZR-oD-e7m" firstAttribute="top" secondItem="Q6P-bA-349" secondAttribute="bottom" constant="8" id="GM3-uU-30m"/>
+                            <constraint firstItem="DZR-oD-e7m" firstAttribute="leading" secondItem="8KF-Jq-8oP" secondAttribute="leadingMargin" id="WFW-YU-d1E"/>
+                            <constraint firstItem="HBh-AZ-eDF" firstAttribute="top" secondItem="DZR-oD-e7m" secondAttribute="bottom" constant="20" id="l4v-5f-v96"/>
+                            <constraint firstItem="DZR-oD-e7m" firstAttribute="trailing" secondItem="8KF-Jq-8oP" secondAttribute="trailingMargin" id="zze-hh-6AY"/>
                         </constraints>
                     </view>
+                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
                     <connections>
                         <segue destination="hJH-DZ-mkk" kind="show" identifier="toDetailedEvent" id="jkx-eR-GbO"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="BlD-FX-rRd" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="6" y="1234"/>
+            <point key="canvasLocation" x="5.5999999999999996" y="1233.7331334332835"/>
         </scene>
         <!--Fashion Show-->
         <scene sceneID="PhL-8w-rik">
