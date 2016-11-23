@@ -174,10 +174,10 @@
             </objects>
             <point key="canvasLocation" x="1746" y="1244"/>
         </scene>
-        <!--Navigation Controller-->
+        <!--Custom Navigation View Controller-->
         <scene sceneID="myl-I8-qhI">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Gfp-dT-lVi" sceneMemberID="viewController">
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Gfp-dT-lVi" customClass="CustomNavigationViewController" customModule="BuckeyeThon" customModuleProvider="target" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="eoT-F3-ilt">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>

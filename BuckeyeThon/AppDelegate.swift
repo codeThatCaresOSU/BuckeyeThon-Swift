@@ -8,6 +8,8 @@
 
 import UIKit
 
+let colorMaster = UIColor(displayP3Red: 222/255, green: 49/255, blue: 99/255, alpha: 1)
+
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 

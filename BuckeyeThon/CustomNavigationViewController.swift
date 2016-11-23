@@ -1,5 +1,5 @@
 //
-//  EventsTabViewController.swift
+//  CustomNavigationViewController.swift
 //  BuckeyeThon
 //
 //  Created by Taha Topiwala on 11/22/16.
@@ -8,14 +8,15 @@
 
 import UIKit
 
-class CustomTabViewController: UITabBarController {
-    
+class CustomNavigationViewController: UINavigationController {
+
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
-        self.tabBar.tintColor = colorMaster
-        self.tabBar.barStyle = UIBarStyle.default
+        
+        self.navigationBar.tintColor = colorMaster
+        //self.navigationBar.titleTextAttributes = [NSForegroundColorAttributeName : colorMaster]
     }
 
 }
