@@ -24,8 +24,11 @@
 		9B7C20481DE51573000FDF4C /* Involved.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B7C20471DE51573000FDF4C /* Involved.storyboard */; };
 		9B7C204A1DE516BA000FDF4C /* MainInvolvedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B7C20491DE516BA000FDF4C /* MainInvolvedViewController.swift */; };
 		9B7C204D1DE51C5E000FDF4C /* CustomNavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B7C204C1DE51C5E000FDF4C /* CustomNavigationViewController.swift */; };
+		9B7C204F1DE522C5000FDF4C /* TeamCaptainsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B7C204E1DE522C5000FDF4C /* TeamCaptainsViewController.swift */; };
+		9B7C20531DE55472000FDF4C /* MembershipViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B7C20521DE55472000FDF4C /* MembershipViewController.swift */; };
+		9B7C20561DE554C6000FDF4C /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B7C20551DE554C6000FDF4C /* MasterViewController.swift */; };
+		9B7C20581DE56219000FDF4C /* DancersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B7C20571DE56219000FDF4C /* DancersViewController.swift */; };
 		9BBD374B1DDEAA440038F686 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BBD374A1DDEAA440038F686 /* AppDelegate.swift */; };
-		9BBD374D1DDEAA440038F686 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BBD374C1DDEAA440038F686 /* ViewController.swift */; };
 		9BBD37501DDEAA440038F686 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BBD374E1DDEAA440038F686 /* Main.storyboard */; };
 		9BBD37521DDEAA440038F686 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9BBD37511DDEAA440038F686 /* Assets.xcassets */; };
 		9BBD37551DDEAA440038F686 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BBD37531DDEAA440038F686 /* LaunchScreen.storyboard */; };
@@ -52,9 +55,12 @@
 		9B7C20471DE51573000FDF4C /* Involved.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Involved.storyboard; sourceTree = "<group>"; };
 		9B7C20491DE516BA000FDF4C /* MainInvolvedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainInvolvedViewController.swift; sourceTree = "<group>"; };
 		9B7C204C1DE51C5E000FDF4C /* CustomNavigationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomNavigationViewController.swift; sourceTree = "<group>"; };
+		9B7C204E1DE522C5000FDF4C /* TeamCaptainsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TeamCaptainsViewController.swift; sourceTree = "<group>"; };
+		9B7C20521DE55472000FDF4C /* MembershipViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MembershipViewController.swift; sourceTree = "<group>"; };
+		9B7C20551DE554C6000FDF4C /* MasterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
+		9B7C20571DE56219000FDF4C /* DancersViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DancersViewController.swift; sourceTree = "<group>"; };
 		9BBD37471DDEAA440038F686 /* BuckeyeThon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BuckeyeThon.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9BBD374A1DDEAA440038F686 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		9BBD374C1DDEAA440038F686 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		9BBD374F1DDEAA440038F686 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9BBD37511DDEAA440038F686 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9BBD37541DDEAA440038F686 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -153,9 +159,38 @@
 			isa = PBXGroup;
 			children = (
 				9B7C20471DE51573000FDF4C /* Involved.storyboard */,
-				9B7C20491DE516BA000FDF4C /* MainInvolvedViewController.swift */,
+				9B7C20541DE55478000FDF4C /* Controller */,
 			);
 			name = Involved;
+			sourceTree = "<group>";
+		};
+		9B7C20501DE553FA000FDF4C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9BBD375E1DDEAFEA0038F686 /* SmallRoundedButtons.swift */,
+				9BBD375C1DDEAC1A0038F686 /* RedBorderedView.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		9B7C20511DE55403000FDF4C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				9B7C204C1DE51C5E000FDF4C /* CustomNavigationViewController.swift */,
+				9B7C20451DE507E5000FDF4C /* CustomTabViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		9B7C20541DE55478000FDF4C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				9B7C20571DE56219000FDF4C /* DancersViewController.swift */,
+				9B7C20521DE55472000FDF4C /* MembershipViewController.swift */,
+				9B7C204E1DE522C5000FDF4C /* TeamCaptainsViewController.swift */,
+				9B7C20491DE516BA000FDF4C /* MainInvolvedViewController.swift */,
+			);
+			name = Controller;
 			sourceTree = "<group>";
 		};
 		9BBD373E1DDEAA440038F686 = {
@@ -178,10 +213,6 @@
 			isa = PBXGroup;
 			children = (
 				9BBD374A1DDEAA440038F686 /* AppDelegate.swift */,
-				9BBD374C1DDEAA440038F686 /* ViewController.swift */,
-				9BBD374E1DDEAA440038F686 /* Main.storyboard */,
-				9B7C204C1DE51C5E000FDF4C /* CustomNavigationViewController.swift */,
-				9B7C20451DE507E5000FDF4C /* CustomTabViewController.swift */,
 				9B7C204B1DE51715000FDF4C /* Involved */,
 				9B3879AD1DDFF70800FFDA3C /* My Account */,
 				9B3879AE1DDFF71100FFDA3C /* Meet the kids */,
@@ -198,8 +229,10 @@
 		9BBD37601DDEB01B0038F686 /* Master */ = {
 			isa = PBXGroup;
 			children = (
-				9BBD375E1DDEAFEA0038F686 /* SmallRoundedButtons.swift */,
-				9BBD375C1DDEAC1A0038F686 /* RedBorderedView.swift */,
+				9BBD374E1DDEAA440038F686 /* Main.storyboard */,
+				9B7C20551DE554C6000FDF4C /* MasterViewController.swift */,
+				9B7C20511DE55403000FDF4C /* Controller */,
+				9B7C20501DE553FA000FDF4C /* View */,
 			);
 			name = Master;
 			sourceTree = "<group>";
@@ -290,13 +323,16 @@
 				9B7C204D1DE51C5E000FDF4C /* CustomNavigationViewController.swift in Sources */,
 				9B3879BB1DE003D500FFDA3C /* FundraisingOptionTableViewCell.swift in Sources */,
 				9BBD375D1DDEAC1A0038F686 /* RedBorderedView.swift in Sources */,
+				9B7C204F1DE522C5000FDF4C /* TeamCaptainsViewController.swift in Sources */,
 				9B3879C21DE0100F00FFDA3C /* OptionThreeViewController.swift in Sources */,
 				9B3879B51DE001CB00FFDA3C /* FundraisingOptions.swift in Sources */,
 				9BBD375F1DDEAFEA0038F686 /* SmallRoundedButtons.swift in Sources */,
+				9B7C20531DE55472000FDF4C /* MembershipViewController.swift in Sources */,
+				9B7C20581DE56219000FDF4C /* DancersViewController.swift in Sources */,
 				9B3879C01DE0100500FFDA3C /* OptionTwoViewController.swift in Sources */,
 				9B3879B21DDFF86700FFDA3C /* MainEventsViewController.swift in Sources */,
 				9B7C204A1DE516BA000FDF4C /* MainInvolvedViewController.swift in Sources */,
-				9BBD374D1DDEAA440038F686 /* ViewController.swift in Sources */,
+				9B7C20561DE554C6000FDF4C /* MasterViewController.swift in Sources */,
 				9BBD374B1DDEAA440038F686 /* AppDelegate.swift in Sources */,
 				9B7C20461DE507E5000FDF4C /* CustomTabViewController.swift in Sources */,
 			);

@@ -12,8 +12,8 @@ import UIKit
     
     override func awakeFromNib() {
         self.layer.borderColor = UIColor(displayP3Red: 187/255, green: 0, blue: 0, alpha: 1).cgColor
-        self.layer.borderWidth = 5
-        self.layer.cornerRadius = 4.0
+        self.layer.borderWidth = 7
+        self.layer.cornerRadius = 8.0
     }
 
 }

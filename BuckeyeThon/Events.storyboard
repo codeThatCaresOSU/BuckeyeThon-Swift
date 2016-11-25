@@ -136,7 +136,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="kG6-4n-3JG" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3542" y="542"/>
+            <point key="canvasLocation" x="3542" y="865"/>
         </scene>
         <!--Dance Marthon-->
         <scene sceneID="QLV-tU-xsK">
@@ -155,12 +155,12 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="rRc-4K-Zhi" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2638" y="296"/>
+            <point key="canvasLocation" x="2638" y="865"/>
         </scene>
-        <!--Events Tab View Controller-->
+        <!--Custom Tab View Controller-->
         <scene sceneID="aaQ-C9-OSs">
             <objects>
-                <tabBarController id="hJH-DZ-mkk" customClass="EventsTabViewController" customModule="BuckeyeThon" customModuleProvider="target" sceneMemberID="viewController">
+                <tabBarController id="hJH-DZ-mkk" customClass="CustomTabViewController" customModule="BuckeyeThon" customModuleProvider="target" sceneMemberID="viewController">
                     <tabBar key="tabBar" contentMode="scaleToFill" id="E7Q-xs-2hQ">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="49"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -195,7 +195,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="XpO-gb-QCS" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3542" y="1234"/>
+            <point key="canvasLocation" x="3542" y="1652"/>
         </scene>
         <!--Extra Life-->
         <scene sceneID="Xmj-Yk-T86">
@@ -214,7 +214,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="qhZ-de-YP3" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2638" y="1234"/>
+            <point key="canvasLocation" x="2638" y="1652"/>
         </scene>
         <!--CarnOval-->
         <scene sceneID="lTC-Ba-ZQf">
@@ -233,7 +233,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="o98-QX-E0S" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2638" y="1965"/>
+            <point key="canvasLocation" x="4329" y="1234"/>
         </scene>
     </scenes>
     <resources>

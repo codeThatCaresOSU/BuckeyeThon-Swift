@@ -9,28 +9,28 @@
 import UIKit
 
 class MainInvolvedViewController: UIViewController {
+    
+    /**
+     *
+     * Error needed to be fixed = Next View Controller does not show the window title.
+     *
+     **/
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
-        
         self.title = "Involved"
     }
 
 
     @IBAction func toDetailedInvolved(_ sender: UIButton) {
-        let index = sender.tag
-        self.performSegue(withIdentifier: "toInvolvedDetailed", sender: index)
+        self.performSegue(withIdentifier: "toInvolvedDetailed", sender: sender.tag)
     }
     
     // MARK: - Navigation
 
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
-        
         if let controller = segue.destination as? CustomTabViewController {
             if let index = sender as? Int {
                 controller.selectedIndex = index
